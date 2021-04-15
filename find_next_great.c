@@ -31,6 +31,7 @@ void findnext(char number[],int n)
             swap(&number[smallest], &number[i-1]);
 
             sort(number+i,number+n);
+            // Test
 
             printf("next number with same set of digit is",number);
             return;
@@ -42,4 +43,5 @@ char digits[]="534976";
 int n= strlen(digits);
 findnext(digits,n);
 return 0;
+//test at end
 }
