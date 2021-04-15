@@ -9,7 +9,8 @@ void swap(char *a,char *b)
     *a=*b;
     *b=temp;
 }
-void findnext(char number[],int number)
+
+void findnext(char number[],int number) //finenext function
 {
     int i,j;
 
