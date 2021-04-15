@@ -3,7 +3,7 @@
 #include<math.h>
 #include<string.h>
 
-void swap(char *a,char *b)
+void swap(char *a,char *b) // test
 {
     char temp=*a;
     *a=*b;
